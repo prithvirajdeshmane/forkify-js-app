@@ -1,0 +1,20 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Recipe Search And Bookmark Application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Prithviraj Deshmane",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.0",
+    "parcel": "^2.10.0"
+  },
+  "dependencies": {
+    "core-js": "^3.33.1",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.14.0"
+  }
+}
